@@ -1,5 +1,7 @@
 ---
 title: bunnegirl solutions (not bunnegirl problems)
+description: i'm mae, host of a plural system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
+image: mae.png
 ...
 
 # bunnegirl solutions *not bunnegirl problems*
@@ -8,7 +10,7 @@ title: bunnegirl solutions (not bunnegirl problems)
 <img src="mae.png">
 :::
 
-i'm mae, host of a relatively new system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
+i'm mae, host of a plural system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
 
 we are survivors of [csa]{title="childhood sexual assault"}, emotional abuse & neglect and bullying. we're autistic, have adhd and most likely cptsd and possibly bpd, tho we're undiagnosed because life sucks like that.
 

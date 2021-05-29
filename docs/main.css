@@ -32,7 +32,12 @@ body > section {
     margin: auto;
     padding: 3rem 3rem 3rem 13rem;
     position: relative;
-    max-width: 30rem;
+    max-width: 22rem;
+}
+@media screen and (max-width: 62rem) {
+    body > section {
+        padding: 13rem 3rem 3rem 3rem;
+    }
 }
 body section section {
     border-top: 0.25rem dotted hsla(273.9, 61.1%, 77.8%, 0.1);
@@ -40,6 +45,12 @@ body section section {
     margin: 3rem -3rem 0 -13rem;
     padding: 3rem 3rem 0 13rem;
     position: relative;
+}
+@media screen and (max-width: 62rem) {
+    body section section {
+        margin: 3rem -3rem 0 -3rem;
+        padding: 13rem 3rem 0 3rem;
+    }
 }
 body section p:first-of-type img {
     border-radius: 1rem;

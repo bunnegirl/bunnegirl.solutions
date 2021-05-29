@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     border: none;
     margin: 0;
     font-family: inherit;
@@ -25,15 +26,25 @@ html {
 @media screen and (max-width: 850px) {
     html {
         font-size: 17px;
-        line-height: 33px;
+        line-height: 32px;
     }
 }
 
 body {
     background: #2b2035 linear-gradient(180deg, #2b2035, #281d31);
     color: #ecd3ff;
-    padding: 6rem 0;
+    padding: 6rem 2rem;
     text-shadow: 0 0 0.5rem hsla(0, 0%, 0%, 0.2);
+}
+@media screen and (max-width: 700px) {
+    body {
+        padding: 4rem 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    body {
+        padding: 2rem;
+    }
 }
 
 body > section {
@@ -44,11 +55,16 @@ body > section {
     margin: auto;
     padding: 3rem 3rem 3rem 13rem;
     position: relative;
-    width: 22rem;
+    max-width: 38rem;
 }
 @media screen and (max-width: 700px) {
     body > section {
         padding: 13rem 3rem 3rem 3rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    body > section {
+        padding: 12rem 2rem 2rem 2rem;
     }
 }
 body section section {
@@ -64,6 +80,12 @@ body section section {
         padding: 13rem 3rem 0 3rem;
     }
 }
+@media screen and (max-width: 500px) {
+    body section section {
+        margin: 2rem -2rem 0 -2rem;
+        padding: 12rem 2rem 0 2rem;
+    }
+}
 body section p:first-of-type img {
     border-radius: 1rem;
     box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.2);
@@ -71,6 +93,12 @@ body section p:first-of-type img {
     position: absolute;
     top: 3rem;
     width: 8rem;
+}
+@media screen and (max-width: 500px) {
+    body section p:first-of-type img {
+        left: 2rem;
+        top: 2rem;
+    }
 }
 
 em {

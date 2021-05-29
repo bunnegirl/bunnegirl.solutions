@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+$if(keywords)$
+<meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$">
+$endif$
+$if(description-meta)$
+<meta name="description" content="$description-meta$">
+$endif$
+<title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap">
+<link rel="stylesheet" href="main.css">
+$body$

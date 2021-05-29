@@ -1,3 +1,7 @@
+:root {
+    --u: calc(15px + 3vmin);
+}
+
 * {
     box-sizing: border-box;
     border: none;
@@ -13,15 +17,15 @@
 
 html {
     font-family: source sans pro;
-    font-size: calc(12px + 1vw);
+    font-size: calc(var(--u) / 2);
     font-weight: lighter;
-    line-height: calc(24px + 1vw);
+    line-height: calc(var(--u) / 1.2);
 }
 
 body {
     background: #2b2035 linear-gradient(180deg, #2b2035, #281d31);
     color: #ecd3ff;
-    padding: 3rem;
+    padding: 2.5rem;
     text-shadow: 0 0 0.5rem hsla(0, 0%, 0%, 0.2);
 }
 
@@ -29,22 +33,26 @@ section.level1,
 section.level2 {
     column-gap: 1.5rem;
     display: grid;
-    grid-template-columns: 9rem 1fr;
+    grid-template-columns: auto 1fr;
+    padding: 2rem;
 }
 section.level1 {
     border-radius: 1rem;
     background: #41304e linear-gradient(180deg, #41304e, #34263f);
     box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.2);
-    font-size: 1rem;
+    max-width: 36rem;
     margin: auto;
-    max-width: 38rem;
-    padding: 3rem;
+}
+@media screen and (max-width: 51rem) {
+    section.level1 {
+        max-width: 26rem;
+    }
 }
 section.level1 > *,
 section.level2 > * {
     grid-column: 2;
 }
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 51rem) {
     section.level1 > *,
     section.level2 > * {
         grid-column: 1/3;
@@ -54,21 +62,20 @@ section.level2 > * {
 section.level2 {
     border-top: 0.25rem dotted hsla(273.9, 61.1%, 77.8%, 0.1);
     grid-column: 1/3;
-    margin: 0 -3rem;
-    padding: 3rem;
+    margin: 0 -2rem;
 }
 section.level2:first-of-type {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 section.level2:last-of-type {
-    margin-bottom: -3rem;
+    margin-bottom: -2rem;
 }
 
 div.avatar {
     grid-column: 1;
     grid-row: 1/10;
 }
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 51rem) {
     div.avatar {
         grid-column: 1/3;
         grid-row: 1;
@@ -79,6 +86,7 @@ div.avatar p {
 }
 div.avatar img {
     border-radius: 1rem;
+    box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.2);
     width: 9rem;
 }
 

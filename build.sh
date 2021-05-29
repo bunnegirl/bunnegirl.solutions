@@ -4,4 +4,4 @@ pandoc \
     --metadata title="bunnegirl solutions" \
     --section-divs \
     --output public/index.html \
-    readme.md
+    index.md

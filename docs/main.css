@@ -33,20 +33,21 @@ section.level1,
 section.level2 {
     column-gap: 1.5rem;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 9rem 21rem;
     padding: 2rem;
 }
+@media screen and (max-width: 51rem) {
+    section.level1,
+    section.level2 {
+        grid-template-columns: 19.5rem;
+    }
+}
 section.level1 {
-    border-radius: 1rem;
+    border-radius: 2rem;
     background: #41304e linear-gradient(180deg, #41304e, #34263f);
     box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.2);
-    max-width: 36rem;
     margin: auto;
-}
-@media screen and (max-width: 51rem) {
-    section.level1 {
-        max-width: 26rem;
-    }
+    width: min-content;
 }
 section.level1 > *,
 section.level2 > * {
@@ -115,10 +116,7 @@ h2 {
 }
 
 h1,
-h2 {
-    margin: 1rem 0 0.5rem 0;
-}
-
+h2,
 p {
     margin: 0.5rem 0;
 }

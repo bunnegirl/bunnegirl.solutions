@@ -1,16 +1,16 @@
 ---
 title: bunnegirl solutions (not bunnegirl problems)
-description: i'm mae, host of a plural system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
-image: mae.png
+description: i'm jasmine, host of a plural system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
+image: jasmine.png
 ...
 
 # bunnegirl solutions *not bunnegirl problems*
 
 ::: {.avatar}
-<img src="mae.png">
+<img src="jasmine.png">
 :::
 
-i'm mae, host of a plural system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
+i'm jasmine, host of a plural system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
 
 we are survivors of [csa]{title="childhood sexual assault"}, emotional abuse & neglect and bullying. we're autistic, have adhd and most likely cptsd and possibly bpd, tho we're undiagnosed because life sucks like that.
 
@@ -34,17 +34,17 @@ bunne is around 7 and very scared of being hurt by people, she survived csa, esc
 <img src="sammy.png">
 :::
 
-sammy is the same age as mae, she became who she had to be to survive, is extremely self negative and struggles to be angry at other people instead preferring to take it out on herself.
+sammy is the same age as jasmine, she became who she had to be to survive, is extremely self negative and struggles to be angry at other people instead preferring to take it out on herself.
 
 *she/her*
 
 
-## mae
+## jasmine
 
 ::: {.avatar}
-<img src="mae.png">
+<img src="jasmine.png">
 :::
 
-mae isn't sure if she's the original host, if sammy split from her, or she split from sammy. either way, mae is here to fight fires and try to find a way to help herself and the others.
+jasmine isn't sure if she's the original host, if sammy split from her, or she split from sammy. either way, jasmine is here to fight fires and try to find a way to help herself and the others.
 
 *she/her*

@@ -12,9 +12,9 @@ image: mae.png
 
 i'm mae, host of a plural system, the other people here are bunne, who's a little young, and sammy, who's a little angry.
 
-we are survivors of [csa]{title="childhood sexual assault"}, emotional abuse & neglect and bullying. we're autistic, have adhd and most likely cptsd and possibly bpd, tho we're undiagnosed because life sucks like that.
+we are survivors of [csa]{title="childhood sexual assault"}, emotional abuse & neglect and bullying. we're autistic, have adhd, cptsd and bpd, because life sucks like that.
 
-i'm very anxious around groups of people, and rejection sensitive.
+i'm very anxious around groups of people, and rejection sensitive, tho we're doing a lot better with that.
 
 
 ## bunne
